@@ -4,11 +4,95 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <title>Shota Portfolio</title>
   </head>
   <body>
+    <header>
+      <ul>
+        <li><a href="">top</a></li>
+        <li><a href="#profile">profile</a></li>
+        <li><a href="#skill">skill</a></li>
+      </ul>
+      <button class="menus" id="btn">
+        <span class="menu"></span>
+        <span class="menu"></span>
+        <span class="menu"></span>
+      </button>
+    </header>
+    <main>
+      <section>
+        <div class="top">
+          <h1>Shota</h1>
+          <h1>Portfolio</h1>
+        </div>
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="circle circle3"></div>
+        <div class="circle circle4"></div>
+        <div class="circle circle5"></div>
+        <div class="circle circle6"></div>
+        <div class="circle circle7"></div>
+        <div class="circle circle8"></div>
+        <div class="circle circle9"></div>
+        <div class="circle circle10"></div>
+      </section>
+      <section>
+        <div class="box">
+          <h1 id="profile">profile</h1>
+          <div class="container">
+            <div class="flex-item">
+              <img src="IMG_3816.jpg" alt="" class="main-image" />
+            </div>
+            <dl class="flex-item">
+              <dt>氏名</dt>
+              <dd>野﨑翔太</dd>
+              <dt>所属</dt>
+              <dd>大阪大学システム科学科生物工学コース</dd>
+              <dt>年齢</dt>
+              <dd>20歳</dd>
+              <dt>趣味</dt>
+              <dd>野球観戦, ボルダリング, ポケモンのアニメ,映画</dd>
+              <dt>出身地</dt>
+              <dd>広島県</dd>
+            </dl>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="box">
+          <h1 id="skill">Skill</h1>
+          <div class="container">
+            <div class="flex-item">
+              <p class="text">
+                成果物は特にはありませんが、2021年4月から、Geeksalon_expertコースにてHTML,CSS,Javascript,githubを学習しています。
+                2021年6月にはこれらを用いて共同開発をする予定です。
+              </p>
+            </div>
+            <div class="flex-item lang">
+              <img
+                src="https://img.icons8.com/color/452/html-5--v1.png"
+                alt=""
+              />
+              <img src="https://img.icons8.com/color/344/css3.png" alt="" />
+              <img
+                src="https://img.icons8.com/color/344/javascript.png"
+                alt=""
+              />
+              <img
+                src="https://img.icons8.com/color/344/github--v1.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="main.js"></script>
   </body>
 </html>
