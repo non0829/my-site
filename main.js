@@ -41,7 +41,7 @@ changeColor.addEventListener('click', () => {
   let hue = Math.floor(Math.random() * 361);
   circles.forEach((circle) => {
     circle.style.backgroundColor = `hsl(${hue}, ${saturation}%, ${lightness}%)`
-    html.style.backgroundColor = `hsl(${hue + 60}, ${saturation - 20}%, ${lightness + 10}%)`
+    html.style.backgroundColor = `hsl(${hue + 60}, ${saturation - 20}%, 90%)`
   })
 })
 
